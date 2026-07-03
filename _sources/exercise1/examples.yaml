@@ -8,6 +8,6 @@ examples:
     
     In **Markdown** format.
 
-#  snippets:
-#    - language: json
-#      ref: ../exercise1/example.json
+  snippets:
+    - language: json
+      ref: ../exercise1/example.json
