@@ -1,4 +1,4 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$ref": "https://ogcincubator.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise3_completed/schema.json"
+  "$ref": "https://canocnig.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise3_completed/schema.json"
 }

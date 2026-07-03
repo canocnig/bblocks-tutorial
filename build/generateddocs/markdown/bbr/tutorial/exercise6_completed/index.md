@@ -41,7 +41,7 @@ Profiling a BBlock from another register
 #### jsonld
 ```jsonld
 {
-  "@context": "https://ogcincubator.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise6_completed/context.jsonld",
+  "@context": "https://canocnig.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise6_completed/context.jsonld",
   "type": "Feature",
   "id": "LineP1P2",
   "geometry": null,
@@ -60,10 +60,11 @@ Profiling a BBlock from another register
 ```ttl
 @prefix geojson: <https://purl.org/geojson/vocab#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix topo: <https://purl.org/geojson/topo#> .
 
 <file:///github/workspace/LineP1P2> a geojson:Feature ;
     geojson:topology [ a geojson:LineString ;
-            geojson:relatedFeatures ( <file:///github/workspace/P1> <file:///github/workspace/P2> ) ] .
+            topo:relatedFeatures ( <file:///github/workspace/P1> <file:///github/workspace/P2> ) ] .
 
 
 ```
@@ -85,8 +86,8 @@ allOf:
 
 Links to the schema:
 
-* YAML version: [schema.yaml](https://ogcincubator.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise6_completed/schema.json)
-* JSON version: [schema.json](https://ogcincubator.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise6_completed/schema.yaml)
+* YAML version: [schema.yaml](https://canocnig.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise6_completed/schema.json)
+* JSON version: [schema.json](https://canocnig.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise6_completed/schema.yaml)
 
 
 # JSON-LD Context
@@ -180,13 +181,55 @@ Links to the schema:
       "@container": "@list"
     },
     "topology": {
+      "@context": {
+        "references": {
+          "@id": "topo:relatedFeatures",
+          "@type": "@id",
+          "@container": "@list"
+        },
+        "directed_references": {
+          "@context": {
+            "ref": {
+              "@type": "@id",
+              "@id": "topo:ref"
+            }
+          },
+          "@id": "topo:directedReferences",
+          "@container": "@list"
+        },
+        "relationships": {
+          "@context": {
+            "href": {
+              "@type": "@id",
+              "@id": "oa:hasTarget"
+            },
+            "rel": {
+              "@context": {
+                "@base": "http://www.iana.org/assignments/relation/"
+              },
+              "@id": "http://www.iana.org/assignments/relation",
+              "@type": "@id"
+            },
+            "type": "dct:type",
+            "hreflang": "dct:language",
+            "title": "rdfs:label",
+            "length": "dct:extent",
+            "role": {
+              "@id": "prof:hasRole",
+              "@type": "@id"
+            },
+            "conformsTo": {
+              "@id": "dct:conformsTo",
+              "@type": "@id"
+            }
+          },
+          "@id": "topo:relatedFeatures",
+          "@type": "@id",
+          "@container": "@list"
+        }
+      },
       "@type": "@id",
       "@id": "geojson:topology"
-    },
-    "references": {
-      "@id": "geojson:relatedFeatures",
-      "@type": "@id",
-      "@container": "@list"
     },
     "Arc": "geojson:Arc",
     "ArcWithCenter": "geojson:ArcWithCenter",
@@ -197,26 +240,46 @@ Links to the schema:
     "arcLength": "geojson:arcLength",
     "startTangentVector": "geojson:startTangentVector",
     "endTangentVector": "geojson:endTangentVector",
+    "ref": "topo:ref",
+    "orientation": "topo:orientation",
+    "Edge": "topo:Edge",
+    "Face": "topo:Face",
+    "Ring": "topo:Ring",
+    "Shell": "topo:Shell",
+    "Solid": "topo:Solid",
+    "rings": {
+      "@id": "topo:rings",
+      "@container": "@list"
+    },
+    "shells": {
+      "@id": "topo:shells",
+      "@container": "@list"
+    },
+    "faces": {
+      "@id": "topo:faces",
+      "@container": "@list"
+    },
     "geojson": "https://purl.org/geojson/vocab#",
     "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
     "oa": "http://www.w3.org/ns/oa#",
     "dct": "http://purl.org/dc/terms/",
     "owlTime": "http://www.w3.org/2006/time#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
-    "csdm": "https://linked.data.gov.au/def/csdm/",
+    "topo": "https://purl.org/geojson/topo#",
+    "prof": "http://www.w3.org/ns/dx/prof/",
     "@version": 1.1
   }
 }
 ```
 
 You can find the full JSON-LD context here:
-[context.jsonld](https://ogcincubator.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise6_completed/context.jsonld)
+[context.jsonld](https://canocnig.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise6_completed/context.jsonld)
 
 
 # For developers
 
 The source code for this Building Block can be found in the following repository:
 
-* URL: [https://github.com/ogcincubator/bblocks-tutorial](https://github.com/ogcincubator/bblocks-tutorial)
+* URL: [https://github.com/canocnig/bblocks-tutorial](https://github.com/canocnig/bblocks-tutorial)
 * Path: `_sources/exercise6_completed`
 

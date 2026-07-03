@@ -47,7 +47,7 @@ Note this illustrates how to use examples to test rules fail when expected. This
     {
       "mynamespace": "http://example.org/ns1/"
     },
-    "https://ogcincubator.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise4_completed/context.jsonld"
+    "https://canocnig.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise4_completed/context.jsonld"
   ],
   "a": "mynamespace:aThing",
   "b": 6,
@@ -72,14 +72,14 @@ Note this illustrates how to use examples to test rules fail when expected. This
 
 ```yaml
 $schema: https://json-schema.org/draft/2020-12/schema
-$ref: https://ogcincubator.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise3_completed/schema.yaml
+$ref: https://canocnig.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise3_completed/schema.yaml
 
 ```
 
 Links to the schema:
 
-* YAML version: [schema.yaml](https://ogcincubator.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise4_completed/schema.json)
-* JSON version: [schema.json](https://ogcincubator.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise4_completed/schema.yaml)
+* YAML version: [schema.yaml](https://canocnig.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise4_completed/schema.json)
+* JSON version: [schema.json](https://canocnig.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise4_completed/schema.yaml)
 
 
 # JSON-LD Context
@@ -97,7 +97,7 @@ Links to the schema:
 ```
 
 You can find the full JSON-LD context here:
-[context.jsonld](https://ogcincubator.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise4_completed/context.jsonld)
+[context.jsonld](https://canocnig.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise4_completed/context.jsonld)
 
 ## Sources
 
@@ -107,6 +107,6 @@ You can find the full JSON-LD context here:
 
 The source code for this Building Block can be found in the following repository:
 
-* URL: [https://github.com/ogcincubator/bblocks-tutorial](https://github.com/ogcincubator/bblocks-tutorial)
+* URL: [https://github.com/canocnig/bblocks-tutorial](https://github.com/canocnig/bblocks-tutorial)
 * Path: `_sources/exercise4_completed`
 

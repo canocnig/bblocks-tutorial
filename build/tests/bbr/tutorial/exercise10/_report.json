@@ -2,7 +2,7 @@
   "title": "Validation report for ogc.bbr.tutorial.exercise10 - 10 - Profiling an Ontology",
   "bblockName": "10 - Profiling an Ontology",
   "bblockId": "ogc.bbr.tutorial.exercise10",
-  "generated": "2025-11-18T03:34:48.271516+00:00",
+  "generated": "2026-07-03T06:16:56.460823+00:00",
   "result": true,
   "items": [
     {
@@ -10,7 +10,7 @@
         "type": "EXAMPLE",
         "requireFail": false,
         "filename": "build/tests/bbr/tutorial/exercise10/example_1_1.ttl",
-        "url": "https://ogcincubator.github.io/bblocks-tutorial/build/tests/bbr/tutorial/exercise10/example_1_1.ttl",
+        "url": "https://canocnig.github.io/bblocks-tutorial/build/tests/bbr/tutorial/exercise10/example_1_1.ttl",
         "exampleIndex": 1,
         "snippetIndex": 1,
         "language": "text/turtle"
@@ -23,7 +23,7 @@
           "entries": [
             {
               "isError": false,
-              "message": "Using example_1_1.ttl from examples"
+              "message": "Using examples/example.ttl from examples"
             },
             {
               "op": "ttl-create",

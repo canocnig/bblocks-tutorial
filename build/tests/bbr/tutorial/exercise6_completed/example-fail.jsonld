@@ -1,5 +1,5 @@
 {
-  "@context": "https://ogcincubator.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise6_completed/context.jsonld",
+  "@context": "https://canocnig.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise6_completed/context.jsonld",
   "type": "Feature",
   "id": "LineP1P2P3",
   "geometry": null,

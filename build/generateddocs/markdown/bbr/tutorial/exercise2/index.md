@@ -68,8 +68,8 @@ required:
 
 Links to the schema:
 
-* YAML version: [schema.yaml](https://ogcincubator.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise2/schema.json)
-* JSON version: [schema.json](https://ogcincubator.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise2/schema.yaml)
+* YAML version: [schema.yaml](https://canocnig.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise2/schema.json)
+* JSON version: [schema.json](https://canocnig.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise2/schema.yaml)
 
 ## Sources
 
@@ -79,6 +79,6 @@ Links to the schema:
 
 The source code for this Building Block can be found in the following repository:
 
-* URL: [https://github.com/ogcincubator/bblocks-tutorial](https://github.com/ogcincubator/bblocks-tutorial)
+* URL: [https://github.com/canocnig/bblocks-tutorial](https://github.com/canocnig/bblocks-tutorial)
 * Path: `_sources/exercise2`
 

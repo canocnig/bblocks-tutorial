@@ -1,5 +1,5 @@
 Validation report for ogc.bbr.tutorial.exercise5 - 05 - Features
-Generated 2025-11-18T03:34:48.460924+00:00
+Generated 2026-07-03T06:16:56.804431+00:00
 === General ===
 
 ** Validation error **
@@ -16,4 +16,18 @@ Output Turtle feature-fail.ttl created
 === JSON Schema ===
 Validation passed
 === End JSON Schema ===
+
+=== SHACL ===
+Validation result for https://opengeospatial.github.io/bblocks/registereditems/geo/features/feature/shapes.shacl:
+  Validation Report
+  Conforms: True
+  
+Focus nodes for https://opengeospatial.github.io/bblocks/registereditems/geo/features/feature/shapes.shacl:
+ - Shape geojson:FeatureShape: <file:///github/workspace/f1>
+ - Shape geojson:GeometryShape/sh:or/rdf:rest/rdf:first: *none*
+ - Shape geojson:GeometryShape: *none*
+ - Shape geojson:GeometryShape/sh:or/rdf:first: *none*
+ - Shape geojson:LinkShape: *none*
+
+=== End SHACL ===
 

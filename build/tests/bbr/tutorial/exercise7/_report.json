@@ -2,7 +2,7 @@
   "title": "Validation report for ogc.bbr.tutorial.exercise7 - 07 - Transforms",
   "bblockName": "07 - Transforms",
   "bblockId": "ogc.bbr.tutorial.exercise7",
-  "generated": "2025-11-18T03:34:48.026852+00:00",
+  "generated": "2026-07-03T06:16:56.407562+00:00",
   "result": true,
   "items": [
     {
@@ -10,7 +10,7 @@
         "type": "EXAMPLE",
         "requireFail": false,
         "filename": "build/tests/bbr/tutorial/exercise7/example_1_1.json",
-        "url": "https://ogcincubator.github.io/bblocks-tutorial/build/tests/bbr/tutorial/exercise7/example_1_1.json",
+        "url": "https://canocnig.github.io/bblocks-tutorial/build/tests/bbr/tutorial/exercise7/example_1_1.json",
         "exampleIndex": 1,
         "snippetIndex": 1,
         "language": "application/json"

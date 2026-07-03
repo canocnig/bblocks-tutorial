@@ -8,26 +8,26 @@
   "dateTimeAddition": "2024-10-03T11:31:00+02:00",
   "itemClass": "schema",
   "version": "0.1",
-  "dateOfLastChange": "2025-11-18",
+  "dateOfLastChange": "2024-10-03",
   "highlighted": true,
   "shaclShapes": {},
-  "ldContext": "https://ogcincubator.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise7_completed/context.jsonld",
+  "ldContext": "https://canocnig.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise7_completed/context.jsonld",
   "schema": {
-    "application/yaml": "https://ogcincubator.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise7_completed/schema.yaml",
-    "application/json": "https://ogcincubator.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise7_completed/schema.json"
+    "application/yaml": "https://canocnig.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise7_completed/schema.yaml",
+    "application/json": "https://canocnig.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise7_completed/schema.json"
   },
-  "sourceSchema": "https://ogcincubator.github.io/bblocks-tutorial/_sources/exercise7_completed/schema.yaml",
-  "sourceLdContext": "https://ogcincubator.github.io/bblocks-tutorial/_sources/exercise7_completed/context.jsonld",
-  "sourceFiles": "https://ogcincubator.github.io/bblocks-tutorial/_sources/exercise7_completed/",
-  "rdfData": [],
+  "sourceSchema": "https://canocnig.github.io/bblocks-tutorial/_sources/exercise7_completed/schema.yaml",
+  "sourceLdContext": "https://canocnig.github.io/bblocks-tutorial/_sources/exercise7_completed/context.jsonld",
+  "resolvedSchemaProperties": "https://canocnig.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise7_completed/resolvedProperties.json",
+  "sourceFiles": "https://canocnig.github.io/bblocks-tutorial/_sources/exercise7_completed/",
   "validationPassed": true,
-  "testOutputs": "https://github.com/ogcincubator/bblocks-tutorial/blob/master/build/tests/bbr/tutorial/exercise7_completed/",
+  "testOutputs": "https://github.com/canocnig/bblocks-tutorial/blob/master/build/tests/bbr/tutorial/exercise7_completed/",
   "transforms": [
     {
       "id": "prefix-keys",
       "description": "Adds a \"PREF\" prefix to all object keys.",
       "type": "jq",
-      "ref": "https://ogcincubator.github.io/bblocks-tutorial/_sources/exercise7_completed/transforms/prefix-keys.jq",
+      "ref": "https://canocnig.github.io/bblocks-tutorial/_sources/exercise7_completed/transforms/prefix-keys.jq",
       "code": "walk(if type == \"object\" then with_entries( .key |= \"PREF\\(.)\" ) else . end)",
       "inputs": {
         "mediaTypes": [
@@ -60,7 +60,7 @@
       "id": "prefix-predicates",
       "description": "Changes the \"http://example.com/\" prefix of every predicate to a URN",
       "type": "sparql-update",
-      "ref": "https://ogcincubator.github.io/bblocks-tutorial/_sources/exercise7_completed/transforms/prefix-predicates.sparql",
+      "ref": "https://canocnig.github.io/bblocks-tutorial/_sources/exercise7_completed/transforms/prefix-predicates.sparql",
       "code": "DELETE {\n  ?s ?p ?o\n}\nINSERT {\n  ?s ?p2 ?o\n}\nWHERE {\n  ?s ?p ?o\n  FILTER(STRSTARTS(STR(?p), \"http://example.com/\"))\n  BIND(URI(REPLACE(STR(?p), \"^http://example.com/\", \"urn:example:ex#\")) as ?p2)\n}",
       "inputs": {
         "mediaTypes": [
@@ -161,30 +161,45 @@
       "snippets": [
         {
           "language": "json",
-          "code": "{\n  \"one\": 1,\n  \"two\": 2,\n  \"string\": \"value\"\n}",
+          "url": "https://canocnig.github.io/bblocks-tutorial/build/tests/bbr/tutorial/exercise7_completed/example_1_1.json",
           "transformResults": {
-            "prefix-keys": "https://ogcincubator.github.io/bblocks-tutorial/build/tests/bbr/tutorial/exercise7_completed/transforms/example_1_1.prefix-keys.json",
-            "inline-transform": "https://ogcincubator.github.io/bblocks-tutorial/build/tests/bbr/tutorial/exercise7_completed/transforms/example_1_1.inline-transform.json"
+            "prefix-keys": {
+              "success": true,
+              "sizeBytes": 59,
+              "url": "https://canocnig.github.io/bblocks-tutorial/build/tests/bbr/tutorial/exercise7_completed/transforms/example_1_1.prefix-keys.json"
+            },
+            "inline-transform": {
+              "success": true,
+              "sizeBytes": 65,
+              "url": "https://canocnig.github.io/bblocks-tutorial/build/tests/bbr/tutorial/exercise7_completed/transforms/example_1_1.inline-transform.json"
+            }
           },
-          "url": "https://ogcincubator.github.io/bblocks-tutorial/build/tests/bbr/tutorial/exercise7_completed/example_1_1.json"
+          "sizeBytes": 47,
+          "code": "{\n  \"one\": 1,\n  \"two\": 2,\n  \"string\": \"value\"\n}"
         },
         {
           "language": "jsonld",
-          "code": "{\n  \"@context\": \"https://ogcincubator.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise7_completed/context.jsonld\",\n  \"one\": 1,\n  \"two\": 2,\n  \"string\": \"value\"\n}",
-          "url": "https://ogcincubator.github.io/bblocks-tutorial/build/tests/bbr/tutorial/exercise7_completed/example_1_1.jsonld"
+          "url": "https://canocnig.github.io/bblocks-tutorial/build/tests/bbr/tutorial/exercise7_completed/example_1_1.jsonld",
+          "sizeBytes": 172,
+          "code": "{\n  \"@context\": \"https://canocnig.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise7_completed/context.jsonld\",\n  \"one\": 1,\n  \"two\": 2,\n  \"string\": \"value\"\n}"
         },
         {
           "language": "ttl",
-          "code": "@prefix ex: <http://example.com/> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\n[] ex:hasOne 1 ;\n    ex:hasString \"value\" ;\n    ex:hasTwo 2 .\n\n",
+          "url": "https://canocnig.github.io/bblocks-tutorial/build/tests/bbr/tutorial/exercise7_completed/example_1_1.ttl",
           "transformResults": {
-            "prefix-predicates": "https://ogcincubator.github.io/bblocks-tutorial/build/tests/bbr/tutorial/exercise7_completed/transforms/example_1_3.prefix-predicates.ttl"
+            "prefix-predicates": {
+              "success": true,
+              "sizeBytes": 151,
+              "url": "https://canocnig.github.io/bblocks-tutorial/build/tests/bbr/tutorial/exercise7_completed/transforms/example_1_3.prefix-predicates.ttl"
+            }
           },
-          "url": "https://ogcincubator.github.io/bblocks-tutorial/build/tests/bbr/tutorial/exercise7_completed/example_1_1.ttl"
+          "sizeBytes": 151,
+          "code": "@prefix ex: <http://example.com/> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\n[] ex:hasOne 1 ;\n    ex:hasString \"value\" ;\n    ex:hasTwo 2 .\n\n"
         }
       ]
     }
   ],
   "annotatedSchema": "type: object\nproperties:\n  one:\n    type: number\n    x-jsonld-id: http://example.com/hasOne\n  two:\n    type: number\n    x-jsonld-id: http://example.com/hasTwo\n  string:\n    type: string\n    x-jsonld-id: http://example.com/hasString\nx-jsonld-prefixes:\n  ex: http://example.com/\n",
-  "gitRepository": "https://github.com/ogcincubator/bblocks-tutorial",
+  "gitRepository": "https://github.com/canocnig/bblocks-tutorial",
   "gitPath": "_sources/exercise7_completed"
 }

@@ -1,5 +1,5 @@
 Validation report for ogc.bbr.tutorial.exercise4_completed - 04 - Profiling (completed)
-Generated 2025-11-18T03:34:48.285900+00:00
+Generated 2026-07-03T06:16:56.471490+00:00
 === General ===
 Test was expected to fail and it did.
 === End General ===
@@ -31,14 +31,14 @@ Validation result for _sources/exercise4_completed/rules.shacl:
   	Message: Value is not >= Literal("5", datatype=xsd:integer)
   
 Focus nodes for _sources/exercise4_completed/rules.shacl:
- - Shape <https://www.ogc.org/rules/template/#testValues>: _:N1158bc82c6b2462b8598b45214aec51e
+ - Shape <https://www.ogc.org/rules/template/#testValues>: _:N955a730fffe7456da84df08fe031f846
 
 Validation result for _sources/exercise3_completed/rules.shacl:
   Validation Report
   Conforms: True
   
 Focus nodes for _sources/exercise3_completed/rules.shacl:
- - Shape <https://www.ogc.org/rules/template/#testValues>: _:N1158bc82c6b2462b8598b45214aec51e
+ - Shape <https://www.ogc.org/rules/template/#testValues>: _:N955a730fffe7456da84df08fe031f846
 
 === End SHACL ===
 
