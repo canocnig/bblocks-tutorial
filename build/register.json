@@ -2,7 +2,7 @@
   "name": "OGC Building Blocks tutorial examples repository",
   "abstract": "A set of building blocks introducing capabilities, as a sequence of exercises.\n",
   "description": "Follow the instructions in the \"About section\" of each building block, starting with the [Orientation](bblock/ogc.bbr.tutorial.exercise0) exercise.\n",
-  "modified": "2026-07-03T06:26:42.190658",
+  "modified": "2026-07-03T10:46:05.864539",
   "tooling": {
     "bblocks-postprocess": {
       "commitId": "\"6a10405b6d14cb859cbcbeb1762f51a8815960bd",
@@ -226,11 +226,13 @@
         "templates"
       ],
       "shaclShapes": {},
+      "ldContext": "https://canocnig.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise2/context.jsonld",
       "schema": {
         "application/yaml": "https://canocnig.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise2/schema.yaml",
         "application/json": "https://canocnig.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise2/schema.json"
       },
       "sourceSchema": "https://canocnig.github.io/bblocks-tutorial/_sources/exercise2/schema.yaml",
+      "sourceLdContext": "https://canocnig.github.io/bblocks-tutorial/_sources/exercise2/context.jsonld",
       "resolvedSchemaProperties": "https://canocnig.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise2/resolvedProperties.json",
       "sourceFiles": "https://canocnig.github.io/bblocks-tutorial/_sources/exercise2/",
       "validationPassed": true,
@@ -1030,8 +1032,8 @@
       "maturity": "development",
       "scope": "unstable",
       "dependsOn": [
-        "bblocks://ogc.geo.features.feature",
-        "bblocks://ogc.bbr.tutorial.exercise4_completed"
+        "bblocks://ogc.bbr.tutorial.exercise4_completed",
+        "bblocks://ogc.geo.features.feature"
       ],
       "tags": [
         "building-blocks-tutorial",
@@ -1041,14 +1043,14 @@
       "group": "Examples",
       "highlighted": true,
       "shaclShapes": {
-        "ogc.geo.features.feature": [
-          "https://opengeospatial.github.io/bblocks/registereditems/geo/features/feature/shapes.shacl"
-        ],
         "ogc.bbr.tutorial.exercise4_completed": [
           "https://canocnig.github.io/bblocks-tutorial/_sources/exercise4_completed/rules.shacl"
         ],
         "ogc.bbr.tutorial.exercise3_completed": [
           "https://canocnig.github.io/bblocks-tutorial/_sources/exercise3_completed/rules.shacl"
+        ],
+        "ogc.geo.features.feature": [
+          "https://opengeospatial.github.io/bblocks/registereditems/geo/features/feature/shapes.shacl"
         ]
       },
       "schema": {
@@ -1101,12 +1103,12 @@
       "highlighted": true,
       "shaclShapes": {
         "ogc.geo.topo.features.topo-feature": [
-          "https://ogcincubator.github.io/topo-feature/_sources/features/topo-feature-collection/tests/topo-refs-exist.shacl",
-          "https://ogcincubator.github.io/topo-feature/_sources/features/topo-feature/tests/geometry-coordinates.shacl"
+          "https://ogcincubator.github.io/topo-feature/_sources/features/topo-feature/tests/geometry-coordinates.shacl",
+          "https://ogcincubator.github.io/topo-feature/_sources/features/topo-feature-collection/tests/topo-refs-exist.shacl"
         ],
         "ogc.geo.topo.features.topo-feature-collection": [
-          "https://ogcincubator.github.io/topo-feature/_sources/features/topo-feature-collection/tests/topo-refs-exist.shacl",
-          "https://ogcincubator.github.io/topo-feature/_sources/features/topo-feature/tests/geometry-coordinates.shacl"
+          "https://ogcincubator.github.io/topo-feature/_sources/features/topo-feature/tests/geometry-coordinates.shacl",
+          "https://ogcincubator.github.io/topo-feature/_sources/features/topo-feature-collection/tests/topo-refs-exist.shacl"
         ],
         "ogc.geo.features.feature": [
           "https://opengeospatial.github.io/bblocks/registereditems/geo/features/feature/shapes.shacl"

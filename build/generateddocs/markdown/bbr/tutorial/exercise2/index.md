@@ -46,6 +46,29 @@ In **Markdown** format.
 
 ```
 
+#### jsonld
+```jsonld
+{
+  "@context": "https://canocnig.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise2/context.jsonld",
+  "a": "mynamespace:aThing",
+  "b": 23,
+  "c": 1
+}
+```
+
+#### ttl
+```ttl
+@prefix mynamespace: <http://example.com/mythings/> .
+@prefix ns1: <https://example.org/my-bb-model/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+[] a mynamespace:aThing ;
+    ns1:b 23 ;
+    ns1:c 1 .
+
+
+```
+
 ## Schema
 
 ```yaml
@@ -56,13 +79,18 @@ properties:
   a:
     type: string
     format: uri
+    x-jsonld-id: '@type'
   b:
     type: number
+    x-jsonld-id: https://example.org/my-bb-model/b
   c:
     type: number
+    x-jsonld-id: https://example.org/my-bb-model/c
 required:
 - a
 - b
+x-jsonld-prefixes:
+  mynamespace: http://example.com/mythings/
 
 ```
 
@@ -70,6 +98,24 @@ Links to the schema:
 
 * YAML version: [schema.yaml](https://canocnig.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise2/schema.json)
 * JSON version: [schema.json](https://canocnig.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise2/schema.yaml)
+
+
+# JSON-LD Context
+
+```jsonld
+{
+  "@context": {
+    "a": "@type",
+    "b": "https://example.org/my-bb-model/b",
+    "c": "https://example.org/my-bb-model/c",
+    "mynamespace": "http://example.com/mythings/",
+    "@version": 1.1
+  }
+}
+```
+
+You can find the full JSON-LD context here:
+[context.jsonld](https://canocnig.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise2/context.jsonld)
 
 ## Sources
 

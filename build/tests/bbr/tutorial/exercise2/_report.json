@@ -2,7 +2,7 @@
   "title": "Validation report for ogc.bbr.tutorial.exercise2 - 02 - JSON-LD",
   "bblockName": "02 - JSON-LD",
   "bblockId": "ogc.bbr.tutorial.exercise2",
-  "generated": "2026-07-03T06:26:47.727055+00:00",
+  "generated": "2026-07-03T10:46:13.159992+00:00",
   "result": true,
   "items": [
     {
@@ -24,6 +24,25 @@
             {
               "isError": false,
               "message": "Using ../exercise1/example.json from examples"
+            },
+            {
+              "op": "jsonld-uplift",
+              "isError": false,
+              "message": "JSON-LD context is present - uplifting"
+            },
+            {
+              "op": "jsonld-create",
+              "filename": "example_1_1.jsonld",
+              "isError": false,
+              "message": "Output JSON-LD example_1_1.jsonld created"
+            },
+            {
+              "op": "ttl-create",
+              "empty": false,
+              "filename": "example_1_1.ttl",
+              "size": 3,
+              "isError": false,
+              "message": "Output Turtle example_1_1.ttl created"
             }
           ]
         },

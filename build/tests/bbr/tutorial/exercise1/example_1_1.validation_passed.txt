@@ -1,5 +1,5 @@
 Validation report for ogc.bbr.tutorial.exercise1 - 01 - JSON schema
-Generated 2026-07-03T06:26:47.699765+00:00
+Generated 2026-07-03T10:46:13.125138+00:00
 === Files ===
 Using ../exercise1/example.json from examples
 === End Files ===

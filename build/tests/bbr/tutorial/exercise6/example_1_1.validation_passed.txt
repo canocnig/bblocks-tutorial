@@ -1,5 +1,5 @@
 Validation report for ogc.bbr.tutorial.exercise6 - 06 - Import/Extend
-Generated 2026-07-03T06:26:47.774847+00:00
+Generated 2026-07-03T10:46:13.213335+00:00
 === Files ===
 Using examples/example.json from examples
 === End Files ===
