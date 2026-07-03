@@ -9,7 +9,7 @@
   "itemClass": "schema",
   "register": "building-blocks-tutorial",
   "version": "1.0",
-  "dateOfLastChange": "2023-05-19",
+  "dateOfLastChange": "2026-07-03",
   "sources": [
     {
       "title": "OGC API - Features, Part 1, 7.16.2: Feature Response",
@@ -19,8 +19,8 @@
   "maturity": "development",
   "scope": "unstable",
   "dependsOn": [
-    "ogc.bbr.tutorial.exercise4_completed",
-    "ogc.geo.features.feature"
+    "ogc.geo.features.feature",
+    "ogc.bbr.tutorial.exercise4_completed"
   ],
   "tags": [
     "building-blocks-tutorial",
@@ -30,14 +30,14 @@
   "group": "Examples",
   "highlighted": true,
   "shaclShapes": {
+    "ogc.geo.features.feature": [
+      "https://opengeospatial.github.io/bblocks/registereditems/geo/features/feature/shapes.shacl"
+    ],
     "ogc.bbr.tutorial.exercise4_completed": [
       "https://canocnig.github.io/bblocks-tutorial/_sources/exercise4_completed/rules.shacl"
     ],
     "ogc.bbr.tutorial.exercise3_completed": [
       "https://canocnig.github.io/bblocks-tutorial/_sources/exercise3_completed/rules.shacl"
-    ],
-    "ogc.geo.features.feature": [
-      "https://opengeospatial.github.io/bblocks/registereditems/geo/features/feature/shapes.shacl"
     ]
   },
   "schema": {

@@ -28,6 +28,17 @@ An example of the end result is available [here](bblocks://ogc.bbr.tutorial.exer
 [Example from Exercise  1](bblocks://ogc.bbr.tutorial.exercise1/example)
 
 In **Markdown** format.
+#### json
+```json
+{
+  "a": "mynamespace:aThing",
+  "b": 23,
+  "c": 1
+}
+
+
+```
+
 ## Schema
 
 ```yaml

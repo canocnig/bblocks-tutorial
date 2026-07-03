@@ -1,5 +1,5 @@
 Validation report for ogc.bbr.tutorial.exercise3_completed - 03 - Rules (completed)
-Generated 2026-07-03T06:16:56.390571+00:00
+Generated 2026-07-03T06:26:47.760158+00:00
 === Files ===
 Using ../exercise1/example.json from examples
 JSON-LD context is present - uplifting
@@ -17,7 +17,7 @@ Validation result for _sources/exercise3_completed/rules.shacl:
   Conforms: True
   
 Focus nodes for _sources/exercise3_completed/rules.shacl:
- - Shape <https://www.ogc.org/rules/template/#testValues>: _:Na3d1ee2069604bbe9a8edd782debdaa3
+ - Shape <https://www.ogc.org/rules/template/#testValues>: _:Nc0dcd34e1d4c46f5808df0d6956ead09
 
 === End SHACL ===
 
