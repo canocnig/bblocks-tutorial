@@ -1,5 +1,5 @@
 Validation report for ogc.bbr.tutorial.exercise3 - 03 - Add Semantic Rules
-Generated 2026-07-03T10:46:13.182949+00:00
+Generated 2026-07-06T09:35:32.669859+00:00
 === Files ===
 Using ../exercise1/example.json from examples
 JSON-LD context is present - uplifting
@@ -17,7 +17,7 @@ Validation result for _sources/exercise3/rules.shacl:
   Conforms: True
   
 Focus nodes for _sources/exercise3/rules.shacl:
- - Shape <https://www.ogc.org/rules/template/#testValues>: *none*
+ - Shape <https://www.ogc.org/rules/template/#testValues>: _:Na77d0a4802bd4329bf551e19c0a367f1
 
 === End SHACL ===
 

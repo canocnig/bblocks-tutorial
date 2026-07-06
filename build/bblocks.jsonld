@@ -194,7 +194,7 @@
   "name": "Building Blocks - OGC Building Blocks tutorial examples repository",
   "abstract": "A set of building blocks introducing capabilities, as a sequence of exercises.\n",
   "description": "Follow the instructions in the \"About section\" of each building block, starting with the [Orientation](bblock/ogc.bbr.tutorial.exercise0) exercise.\n",
-  "modified": "2026-07-03T10:46:05.864539",
+  "modified": "2026-07-06T09:35:27.406595",
   "tooling": {
     "bblocks-postprocess": {
       "commitId": "\"6a10405b6d14cb859cbcbeb1762f51a8815960bd",
@@ -251,7 +251,7 @@
       "itemClass": "schema",
       "register": "building-blocks-tutorial",
       "version": "0.1",
-      "dateOfLastChange": "2026-07-03",
+      "dateOfLastChange": "2026-07-06",
       "link": "https://github.com/opengeospatial/bblock-template",
       "sources": [],
       "maturity": "mature",
@@ -321,7 +321,7 @@
       "itemClass": "schema",
       "register": "building-blocks-tutorial",
       "version": "0.1",
-      "dateOfLastChange": "2026-07-03",
+      "dateOfLastChange": "2026-07-06",
       "link": "https://github.com/opengeospatial/bblock-template",
       "sources": [],
       "maturity": "mature",
@@ -392,7 +392,7 @@
       "itemClass": "model",
       "register": "building-blocks-tutorial",
       "version": "0.1",
-      "dateOfLastChange": "2026-07-03",
+      "dateOfLastChange": "2026-07-06",
       "sources": [
         {
           "title": "Sample source document",
@@ -468,7 +468,7 @@
       "itemClass": "schema",
       "register": "building-blocks-tutorial",
       "version": "0.1",
-      "dateOfLastChange": "2026-07-03",
+      "dateOfLastChange": "2026-07-06",
       "link": "https://github.com/opengeospatial/bblock-template",
       "sources": [],
       "maturity": "mature",
@@ -539,7 +539,7 @@
       "itemClass": "schema",
       "register": "building-blocks-tutorial",
       "version": "0.1",
-      "dateOfLastChange": "2026-07-03",
+      "dateOfLastChange": "2026-07-06",
       "link": "https://github.com/opengeospatial/bblock-template",
       "sources": [
         {
@@ -622,7 +622,7 @@
       "itemClass": "schema",
       "register": "building-blocks-tutorial",
       "version": "0.1",
-      "dateOfLastChange": "2026-07-03",
+      "dateOfLastChange": "2026-07-06",
       "link": "https://github.com/opengeospatial/bblock-template",
       "sources": [
         {
@@ -705,7 +705,7 @@
       "itemClass": "model",
       "register": "building-blocks-tutorial",
       "version": "0.1",
-      "dateOfLastChange": "2026-07-03",
+      "dateOfLastChange": "2026-07-06",
       "link": "https://github.com/opengeospatial/bblock-template",
       "sources": [
         {
@@ -798,7 +798,7 @@
       "itemClass": "model",
       "register": "building-blocks-tutorial",
       "version": "0.1",
-      "dateOfLastChange": "2026-07-03",
+      "dateOfLastChange": "2026-07-06",
       "link": "https://github.com/opengeospatial/bblock-template",
       "sources": [
         {
@@ -891,7 +891,7 @@
       "itemClass": "model",
       "register": "building-blocks-tutorial",
       "version": "0.1",
-      "dateOfLastChange": "2026-07-03",
+      "dateOfLastChange": "2026-07-06",
       "link": "https://github.com/opengeospatial/bblock-template",
       "sources": [
         {
@@ -975,7 +975,7 @@
       "itemClass": "schema",
       "register": "building-blocks-tutorial",
       "version": "1.0",
-      "dateOfLastChange": "2026-07-03",
+      "dateOfLastChange": "2026-07-06",
       "sources": [],
       "maturity": "development",
       "scope": "unstable",
@@ -1046,7 +1046,7 @@
       "dateTimeAddition": "2024-10-03T11:31:00+02:00",
       "itemClass": "schema",
       "version": "0.1",
-      "dateOfLastChange": "2026-07-03",
+      "dateOfLastChange": "2026-07-06",
       "highlighted": true,
       "shaclShapes": null,
       "ldContext": {
@@ -1114,7 +1114,7 @@
       "dateTimeAddition": "2024-10-03T11:31:00+02:00",
       "itemClass": "schema",
       "version": "0.1",
-      "dateOfLastChange": "2026-07-03",
+      "dateOfLastChange": "2026-07-06",
       "highlighted": true,
       "shaclShapes": null,
       "ldContext": {
@@ -1316,7 +1316,7 @@
       "itemClass": "schema",
       "register": "building-blocks-tutorial",
       "version": "0.1",
-      "dateOfLastChange": "2026-07-03",
+      "dateOfLastChange": "2026-07-06",
       "tags": [
         "building-blocks-tutorial",
         "3D",
@@ -1407,7 +1407,7 @@
       "itemClass": "model",
       "register": "building-blocks-tutorial",
       "version": "0.1",
-      "dateOfLastChange": "2026-07-03",
+      "dateOfLastChange": "2026-07-06",
       "ontology": {
         "prof:hasArtifact": "ontology.ttl",
         "prof:hasRole": "role:specification",
@@ -1483,7 +1483,7 @@
       "itemClass": "model",
       "register": "building-blocks-tutorial",
       "version": "0.1",
-      "dateOfLastChange": "2026-07-03",
+      "dateOfLastChange": "2026-07-06",
       "dependsOn": [
         "bblocks://ogc.bbr.tutorial.exercise9_completed"
       ],
@@ -1565,7 +1565,7 @@
       "itemClass": "model",
       "register": "building-blocks-tutorial",
       "version": "0.1",
-      "dateOfLastChange": "2026-07-03",
+      "dateOfLastChange": "2026-07-06",
       "link": "https://github.com/opengeospatial/bblock-template",
       "sources": [
         {
@@ -1666,7 +1666,7 @@
       "itemClass": "schema",
       "register": "building-blocks-tutorial",
       "version": "1.0",
-      "dateOfLastChange": "2026-07-03",
+      "dateOfLastChange": "2026-07-06",
       "sources": [
         {
           "title": "OGC API - Features, Part 1, 7.16.2: Feature Response",
@@ -1760,7 +1760,7 @@
       "itemClass": "schema",
       "register": "building-blocks-tutorial",
       "version": "1.0",
-      "dateOfLastChange": "2026-07-03",
+      "dateOfLastChange": "2026-07-06",
       "sources": [
         {
           "title": "OGC API - Features, Part 1, 7.16.2: Feature Response",
@@ -1873,7 +1873,7 @@
       "itemClass": "schema",
       "register": "building-blocks-tutorial",
       "version": "1.0",
-      "dateOfLastChange": "2026-07-03",
+      "dateOfLastChange": "2026-07-06",
       "sources": [],
       "maturity": "development",
       "scope": "unstable",
