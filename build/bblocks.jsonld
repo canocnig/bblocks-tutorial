@@ -194,7 +194,7 @@
   "name": "Building Blocks - OGC Building Blocks tutorial examples repository",
   "abstract": "A set of building blocks introducing capabilities, as a sequence of exercises.\n",
   "description": "Follow the instructions in the \"About section\" of each building block, starting with the [Orientation](bblock/ogc.bbr.tutorial.exercise0) exercise.\n",
-  "modified": "2026-07-03T06:26:42.190658",
+  "modified": "2026-07-03T10:46:05.864539",
   "tooling": {
     "bblocks-postprocess": {
       "commitId": "\"6a10405b6d14cb859cbcbeb1762f51a8815960bd",
@@ -554,6 +554,12 @@
         "templates"
       ],
       "shaclShapes": null,
+      "ldContext": {
+        "prof:hasArtifact": "https://canocnig.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise2/context.jsonld",
+        "prof:hasRole": "role:mapping",
+        "dct:format": "application/ld+json",
+        "dct:conformsTo": "https://www.w3.org/TR/json-ld11/"
+      },
       "schema": [
         {
           "prof:hasArtifact": "https://canocnig.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise2/schema.yaml",
@@ -569,6 +575,7 @@
         }
       ],
       "sourceSchema": "https://canocnig.github.io/bblocks-tutorial/_sources/exercise2/schema.yaml",
+      "sourceLdContext": "https://canocnig.github.io/bblocks-tutorial/_sources/exercise2/context.jsonld",
       "resolvedSchemaProperties": "https://canocnig.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise2/resolvedProperties.json",
       "sourceFiles": "https://canocnig.github.io/bblocks-tutorial/_sources/exercise2/",
       "validationPassed": true,
@@ -595,7 +602,6 @@
         "bblocks:BBlock"
       ],
       "skos:prefLabel": "02 - JSON-LD",
-      "ldContext": null,
       "openAPIDocument": null,
       "ontology": null,
       "rdfData": [],
@@ -1764,8 +1770,8 @@
       "maturity": "development",
       "scope": "unstable",
       "dependsOn": [
-        "bblocks://ogc.geo.features.feature",
-        "bblocks://ogc.bbr.tutorial.exercise4_completed"
+        "bblocks://ogc.bbr.tutorial.exercise4_completed",
+        "bblocks://ogc.geo.features.feature"
       ],
       "tags": [
         "building-blocks-tutorial",
@@ -1775,15 +1781,6 @@
       "group": "Examples",
       "highlighted": true,
       "shaclShapes": [
-        {
-          "prof:hasArtifact": [
-            "https://opengeospatial.github.io/bblocks/registereditems/geo/features/feature/shapes.shacl"
-          ],
-          "rdfs:seeAlso": "bblocks://ogc.geo.features.feature",
-          "prof:hasRole": "role:validation",
-          "dct:format": "text/turtle",
-          "dct:conformsTo": "shacl:"
-        },
         {
           "prof:hasArtifact": [
             "https://canocnig.github.io/bblocks-tutorial/_sources/exercise4_completed/rules.shacl"
@@ -1798,6 +1795,15 @@
             "https://canocnig.github.io/bblocks-tutorial/_sources/exercise3_completed/rules.shacl"
           ],
           "rdfs:seeAlso": "bblocks://ogc.bbr.tutorial.exercise3_completed",
+          "prof:hasRole": "role:validation",
+          "dct:format": "text/turtle",
+          "dct:conformsTo": "shacl:"
+        },
+        {
+          "prof:hasArtifact": [
+            "https://opengeospatial.github.io/bblocks/registereditems/geo/features/feature/shapes.shacl"
+          ],
+          "rdfs:seeAlso": "bblocks://ogc.geo.features.feature",
           "prof:hasRole": "role:validation",
           "dct:format": "text/turtle",
           "dct:conformsTo": "shacl:"
@@ -1884,8 +1890,8 @@
       "shaclShapes": [
         {
           "prof:hasArtifact": [
-            "https://ogcincubator.github.io/topo-feature/_sources/features/topo-feature-collection/tests/topo-refs-exist.shacl",
-            "https://ogcincubator.github.io/topo-feature/_sources/features/topo-feature/tests/geometry-coordinates.shacl"
+            "https://ogcincubator.github.io/topo-feature/_sources/features/topo-feature/tests/geometry-coordinates.shacl",
+            "https://ogcincubator.github.io/topo-feature/_sources/features/topo-feature-collection/tests/topo-refs-exist.shacl"
           ],
           "rdfs:seeAlso": "bblocks://ogc.geo.topo.features.topo-feature",
           "prof:hasRole": "role:validation",
@@ -1894,8 +1900,8 @@
         },
         {
           "prof:hasArtifact": [
-            "https://ogcincubator.github.io/topo-feature/_sources/features/topo-feature-collection/tests/topo-refs-exist.shacl",
-            "https://ogcincubator.github.io/topo-feature/_sources/features/topo-feature/tests/geometry-coordinates.shacl"
+            "https://ogcincubator.github.io/topo-feature/_sources/features/topo-feature/tests/geometry-coordinates.shacl",
+            "https://ogcincubator.github.io/topo-feature/_sources/features/topo-feature-collection/tests/topo-refs-exist.shacl"
           ],
           "rdfs:seeAlso": "bblocks://ogc.geo.topo.features.topo-feature-collection",
           "prof:hasRole": "role:validation",

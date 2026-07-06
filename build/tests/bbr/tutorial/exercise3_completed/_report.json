@@ -2,7 +2,7 @@
   "title": "Validation report for ogc.bbr.tutorial.exercise3_completed - 03 - Rules (completed)",
   "bblockName": "03 - Rules (completed)",
   "bblockId": "ogc.bbr.tutorial.exercise3_completed",
-  "generated": "2026-07-03T06:26:47.760211+00:00",
+  "generated": "2026-07-03T10:46:13.196341+00:00",
   "result": true,
   "items": [
     {
@@ -74,12 +74,12 @@
               "focusNodes": {
                 "<https://www.ogc.org/rules/template/#testValues>": {
                   "nodes": [
-                    "_:Nc0dcd34e1d4c46f5808df0d6956ead09"
+                    "_:N09ef03ecc11944e183b2d2880a8c61d8"
                   ]
                 }
               },
               "isError": false,
-              "message": "Focus nodes for _sources/exercise3_completed/rules.shacl:\n - Shape <https://www.ogc.org/rules/template/#testValues>: _:Nc0dcd34e1d4c46f5808df0d6956ead09\n"
+              "message": "Focus nodes for _sources/exercise3_completed/rules.shacl:\n - Shape <https://www.ogc.org/rules/template/#testValues>: _:N09ef03ecc11944e183b2d2880a8c61d8\n"
             }
           ]
         }

@@ -2,8 +2,8 @@
 @prefix dcat: <http://www.w3.org/ns/dcat#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix ns1: <http://www.iana.org/assignments/> .
-@prefix ns2: <http://www.w3.org/ns/oa#> .
+@prefix ns1: <http://www.w3.org/ns/oa#> .
+@prefix ns2: <http://www.iana.org/assignments/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix prof: <http://www.w3.org/ns/dx/prof/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -21,10 +21,10 @@
     rdfs:label "00 - Orientation" ;
     dct:abstract "Orientation on the structure of Building Blocks"^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
     dct:created "2023-04-05T00:00:00+00:00"^^xsd:dateTime ;
-    dct:description [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://canocnig.github.io/bblocks-tutorial/bblock/ogc.bbr.tutorial.exercise0> ],
-        [ dct:format "text/markdown" ;
+    dct:description [ dct:format "text/markdown" ;
             rdfs:isDefinedBy <https://canocnig.github.io/bblocks-tutorial/build/generateddocs/markdown/bbr/tutorial/exercise0/index.md> ],
+        [ dct:format "text/html" ;
+            rdfs:isDefinedBy <https://canocnig.github.io/bblocks-tutorial/bblock/ogc.bbr.tutorial.exercise0> ],
         [ dct:format "application/json" ;
             rdfs:isDefinedBy <https://canocnig.github.io/bblocks-tutorial/build/generateddocs/json-full/bbr/tutorial/exercise0/index.json> ] ;
     dct:hasVersion "0.1" ;
@@ -34,12 +34,12 @@
     skos:topConceptOf <https://canocnig.github.io/bblocks-tutorial/> ;
     dcat:keyword "building-blocks-tutorial" ;
     prof:hasResource [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
-            dct:format "application/json" ;
-            prof:hasArtifact <https://canocnig.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise0/schema.json> ;
-            prof:hasRole role:schema ],
-        [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
             dct:format "application/yaml" ;
             prof:hasArtifact <https://canocnig.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise0/schema.yaml> ;
+            prof:hasRole role:schema ],
+        [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
+            dct:format "application/json" ;
+            prof:hasArtifact <https://canocnig.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise0/schema.json> ;
             prof:hasRole role:schema ] ;
     bblocks:scope <http://www.opengis.net/def/bblocks/scope/unstable> ;
     bblocks:status <http://www.opengis.net/def/status/under-development> ;
@@ -54,10 +54,10 @@
     dct:created "2023-04-05T00:00:00+00:00"^^xsd:dateTime ;
     dct:description [ dct:format "text/html" ;
             rdfs:isDefinedBy <https://canocnig.github.io/bblocks-tutorial/bblock/ogc.bbr.tutorial.exercise1> ],
-        [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://canocnig.github.io/bblocks-tutorial/build/generateddocs/markdown/bbr/tutorial/exercise1/index.md> ],
         [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://canocnig.github.io/bblocks-tutorial/build/generateddocs/json-full/bbr/tutorial/exercise1/index.json> ] ;
+            rdfs:isDefinedBy <https://canocnig.github.io/bblocks-tutorial/build/generateddocs/json-full/bbr/tutorial/exercise1/index.json> ],
+        [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy <https://canocnig.github.io/bblocks-tutorial/build/generateddocs/markdown/bbr/tutorial/exercise1/index.md> ] ;
     dct:hasVersion "0.1" ;
     dct:modified "2026-07-03"^^xsd:date ;
     skos:inScheme <https://canocnig.github.io/bblocks-tutorial/> ;
@@ -83,10 +83,10 @@
     rdfs:label "01 - JSON schema (completed)" ;
     dct:abstract "Shows what Exercise 1 looks like when finished"^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
     dct:created "2023-04-05T00:00:00+00:00"^^xsd:dateTime ;
-    dct:description [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://canocnig.github.io/bblocks-tutorial/bblock/ogc.bbr.tutorial.exercise1_completed> ],
-        [ dct:format "text/markdown" ;
+    dct:description [ dct:format "text/markdown" ;
             rdfs:isDefinedBy <https://canocnig.github.io/bblocks-tutorial/build/generateddocs/markdown/bbr/tutorial/exercise1_completed/index.md> ],
+        [ dct:format "text/html" ;
+            rdfs:isDefinedBy <https://canocnig.github.io/bblocks-tutorial/bblock/ogc.bbr.tutorial.exercise1_completed> ],
         [ dct:format "application/json" ;
             rdfs:isDefinedBy <https://canocnig.github.io/bblocks-tutorial/build/generateddocs/json-full/bbr/tutorial/exercise1_completed/index.json> ] ;
     dct:hasVersion "0.1" ;
@@ -96,12 +96,12 @@
     skos:topConceptOf <https://canocnig.github.io/bblocks-tutorial/> ;
     dcat:keyword "building-blocks-tutorial" ;
     prof:hasResource [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
-            dct:format "application/yaml" ;
-            prof:hasArtifact <https://canocnig.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise1_completed/schema.yaml> ;
-            prof:hasRole role:schema ],
-        [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
             dct:format "application/json" ;
             prof:hasArtifact <https://canocnig.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise1_completed/schema.json> ;
+            prof:hasRole role:schema ],
+        [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
+            dct:format "application/yaml" ;
+            prof:hasArtifact <https://canocnig.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise1_completed/schema.yaml> ;
             prof:hasRole role:schema ] ;
     bblocks:scope <http://www.opengis.net/def/bblocks/scope/unstable> ;
     bblocks:status <http://www.opengis.net/def/status/under-development> ;
@@ -129,13 +129,18 @@
     dcat:keyword "building-blocks-tutorial",
         "templates" ;
     prof:hasResource [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
-            dct:format "application/yaml" ;
-            prof:hasArtifact <https://canocnig.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise2/schema.yaml> ;
-            prof:hasRole role:schema ],
-        [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
             dct:format "application/json" ;
             prof:hasArtifact <https://canocnig.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise2/schema.json> ;
+            prof:hasRole role:schema ],
+        [ dct:conformsTo <https://www.w3.org/TR/json-ld11/> ;
+            dct:format "application/ld+json" ;
+            prof:hasArtifact <https://canocnig.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise2/context.jsonld> ;
+            prof:hasRole role:mapping ],
+        [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
+            dct:format "application/yaml" ;
+            prof:hasArtifact <https://canocnig.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise2/schema.yaml> ;
             prof:hasRole role:schema ] ;
+    bblocks:hasSourceJsonLdContext <https://canocnig.github.io/bblocks-tutorial/_sources/exercise2/context.jsonld> ;
     bblocks:scope <http://www.opengis.net/def/bblocks/scope/unstable> ;
     bblocks:status <http://www.opengis.net/def/status/under-development> ;
     bblocks:validationPassed true .
@@ -147,10 +152,10 @@
     rdfs:label "02 - JSON-LD (completed)" ;
     dct:abstract "Semantically annotate a schema by adding a simple JSON-LD context"^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
     dct:created "2023-04-05T00:00:00+00:00"^^xsd:dateTime ;
-    dct:description [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://canocnig.github.io/bblocks-tutorial/build/generateddocs/markdown/bbr/tutorial/exercise2_completed/index.md> ],
-        [ dct:format "text/html" ;
+    dct:description [ dct:format "text/html" ;
             rdfs:isDefinedBy <https://canocnig.github.io/bblocks-tutorial/bblock/ogc.bbr.tutorial.exercise2_completed> ],
+        [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy <https://canocnig.github.io/bblocks-tutorial/build/generateddocs/markdown/bbr/tutorial/exercise2_completed/index.md> ],
         [ dct:format "application/json" ;
             rdfs:isDefinedBy <https://canocnig.github.io/bblocks-tutorial/build/generateddocs/json-full/bbr/tutorial/exercise2_completed/index.json> ] ;
     dct:hasVersion "0.1" ;
@@ -165,14 +170,14 @@
             dct:format "application/json" ;
             prof:hasArtifact <https://canocnig.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise2_completed/schema.json> ;
             prof:hasRole role:schema ],
-        [ dct:conformsTo <https://www.w3.org/TR/json-ld11/> ;
-            dct:format "application/ld+json" ;
-            prof:hasArtifact <https://canocnig.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise2_completed/context.jsonld> ;
-            prof:hasRole role:mapping ],
         [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
             dct:format "application/yaml" ;
             prof:hasArtifact <https://canocnig.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise2_completed/schema.yaml> ;
-            prof:hasRole role:schema ] ;
+            prof:hasRole role:schema ],
+        [ dct:conformsTo <https://www.w3.org/TR/json-ld11/> ;
+            dct:format "application/ld+json" ;
+            prof:hasArtifact <https://canocnig.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise2_completed/context.jsonld> ;
+            prof:hasRole role:mapping ] ;
     bblocks:hasSourceJsonLdContext <https://canocnig.github.io/bblocks-tutorial/_sources/exercise2_completed/context.jsonld> ;
     bblocks:scope <http://www.opengis.net/def/bblocks/scope/unstable> ;
     bblocks:status <http://www.opengis.net/def/status/under-development> ;
@@ -187,10 +192,10 @@
     dct:created "2023-05-19T00:00:00+00:00"^^xsd:dateTime ;
     dct:description [ dct:format "application/json" ;
             rdfs:isDefinedBy <https://canocnig.github.io/bblocks-tutorial/build/generateddocs/json-full/bbr/tutorial/exercise5/index.json> ],
-        [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://canocnig.github.io/bblocks-tutorial/bblock/ogc.bbr.tutorial.exercise5> ],
         [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://canocnig.github.io/bblocks-tutorial/build/generateddocs/markdown/bbr/tutorial/exercise5/index.md> ] ;
+            rdfs:isDefinedBy <https://canocnig.github.io/bblocks-tutorial/build/generateddocs/markdown/bbr/tutorial/exercise5/index.md> ],
+        [ dct:format "text/html" ;
+            rdfs:isDefinedBy <https://canocnig.github.io/bblocks-tutorial/bblock/ogc.bbr.tutorial.exercise5> ] ;
     dct:hasVersion "1.0" ;
     dct:modified "2026-07-03"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/17-069r3/17-069r3.html#_response_7> ;
@@ -200,7 +205,11 @@
     dcat:keyword "building-blocks-tutorial",
         "examples",
         "feature" ;
-    prof:hasResource [ dct:conformsTo <https://www.w3.org/TR/json-ld11/> ;
+    prof:hasResource [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
+            dct:format "application/yaml" ;
+            prof:hasArtifact <https://canocnig.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise5/schema.yaml> ;
+            prof:hasRole role:schema ],
+        [ dct:conformsTo <https://www.w3.org/TR/json-ld11/> ;
             dct:format "application/ld+json" ;
             prof:hasArtifact <https://canocnig.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise5/context.jsonld> ;
             prof:hasRole role:mapping ],
@@ -209,10 +218,6 @@
             rdfs:seeAlso <bblocks://ogc.geo.features.feature> ;
             prof:hasArtifact <https://opengeospatial.github.io/bblocks/registereditems/geo/features/feature/shapes.shacl> ;
             prof:hasRole role:validation ],
-        [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
-            dct:format "application/yaml" ;
-            prof:hasArtifact <https://canocnig.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise5/schema.yaml> ;
-            prof:hasRole role:schema ],
         [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
             dct:format "application/json" ;
             prof:hasArtifact <https://canocnig.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise5/schema.json> ;
@@ -229,12 +234,12 @@
     rdfs:label "05 - Features (completed)" ;
     dct:abstract "This example shows a simple customisation for OGC API Feature schemas"^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
     dct:created "2023-05-19T00:00:00+00:00"^^xsd:dateTime ;
-    dct:description [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://canocnig.github.io/bblocks-tutorial/build/generateddocs/markdown/bbr/tutorial/exercise5_completed/index.md> ],
-        [ dct:format "application/json" ;
+    dct:description [ dct:format "application/json" ;
             rdfs:isDefinedBy <https://canocnig.github.io/bblocks-tutorial/build/generateddocs/json-full/bbr/tutorial/exercise5_completed/index.json> ],
         [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://canocnig.github.io/bblocks-tutorial/bblock/ogc.bbr.tutorial.exercise5_completed> ] ;
+            rdfs:isDefinedBy <https://canocnig.github.io/bblocks-tutorial/bblock/ogc.bbr.tutorial.exercise5_completed> ],
+        [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy <https://canocnig.github.io/bblocks-tutorial/build/generateddocs/markdown/bbr/tutorial/exercise5_completed/index.md> ] ;
     dct:hasVersion "1.0" ;
     dct:modified "2026-07-03"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/17-069r3/17-069r3.html#_response_7> ;
@@ -244,33 +249,33 @@
     dcat:keyword "building-blocks-tutorial",
         "examples",
         "feature" ;
-    prof:hasResource [ dct:conformsTo shacl: ;
-            dct:format "text/turtle" ;
-            rdfs:seeAlso <bblocks://ogc.bbr.tutorial.exercise3_completed> ;
-            prof:hasArtifact <https://canocnig.github.io/bblocks-tutorial/_sources/exercise3_completed/rules.shacl> ;
-            prof:hasRole role:validation ],
-        [ dct:conformsTo shacl: ;
-            dct:format "text/turtle" ;
-            rdfs:seeAlso <bblocks://ogc.geo.features.feature> ;
-            prof:hasArtifact <https://opengeospatial.github.io/bblocks/registereditems/geo/features/feature/shapes.shacl> ;
-            prof:hasRole role:validation ],
+    prof:hasResource [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
+            dct:format "application/yaml" ;
+            prof:hasArtifact <https://canocnig.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise5_completed/schema.yaml> ;
+            prof:hasRole role:schema ],
         [ dct:conformsTo shacl: ;
             dct:format "text/turtle" ;
             rdfs:seeAlso <bblocks://ogc.bbr.tutorial.exercise4_completed> ;
             prof:hasArtifact <https://canocnig.github.io/bblocks-tutorial/_sources/exercise4_completed/rules.shacl> ;
             prof:hasRole role:validation ],
         [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
-            dct:format "application/yaml" ;
-            prof:hasArtifact <https://canocnig.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise5_completed/schema.yaml> ;
+            dct:format "application/json" ;
+            prof:hasArtifact <https://canocnig.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise5_completed/schema.json> ;
             prof:hasRole role:schema ],
+        [ dct:conformsTo shacl: ;
+            dct:format "text/turtle" ;
+            rdfs:seeAlso <bblocks://ogc.geo.features.feature> ;
+            prof:hasArtifact <https://opengeospatial.github.io/bblocks/registereditems/geo/features/feature/shapes.shacl> ;
+            prof:hasRole role:validation ],
         [ dct:conformsTo <https://www.w3.org/TR/json-ld11/> ;
             dct:format "application/ld+json" ;
             prof:hasArtifact <https://canocnig.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise5_completed/context.jsonld> ;
             prof:hasRole role:mapping ],
-        [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
-            dct:format "application/json" ;
-            prof:hasArtifact <https://canocnig.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise5_completed/schema.json> ;
-            prof:hasRole role:schema ] ;
+        [ dct:conformsTo shacl: ;
+            dct:format "text/turtle" ;
+            rdfs:seeAlso <bblocks://ogc.bbr.tutorial.exercise3_completed> ;
+            prof:hasArtifact <https://canocnig.github.io/bblocks-tutorial/_sources/exercise3_completed/rules.shacl> ;
+            prof:hasRole role:validation ] ;
     bblocks:dependsOn <bblocks://ogc.bbr.tutorial.exercise4_completed>,
         <bblocks://ogc.geo.features.feature> ;
     bblocks:scope <http://www.opengis.net/def/bblocks/scope/unstable> ;
@@ -286,10 +291,10 @@
     dct:created "2023-05-19T00:00:00+00:00"^^xsd:dateTime ;
     dct:description [ dct:format "text/html" ;
             rdfs:isDefinedBy <https://canocnig.github.io/bblocks-tutorial/bblock/ogc.bbr.tutorial.exercise6> ],
-        [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://canocnig.github.io/bblocks-tutorial/build/generateddocs/json-full/bbr/tutorial/exercise6/index.json> ],
         [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://canocnig.github.io/bblocks-tutorial/build/generateddocs/markdown/bbr/tutorial/exercise6/index.md> ] ;
+            rdfs:isDefinedBy <https://canocnig.github.io/bblocks-tutorial/build/generateddocs/markdown/bbr/tutorial/exercise6/index.md> ],
+        [ dct:format "application/json" ;
+            rdfs:isDefinedBy <https://canocnig.github.io/bblocks-tutorial/build/generateddocs/json-full/bbr/tutorial/exercise6/index.json> ] ;
     dct:hasVersion "1.0" ;
     dct:modified "2026-07-03"^^xsd:date ;
     skos:inScheme <https://canocnig.github.io/bblocks-tutorial/> ;
@@ -299,12 +304,12 @@
         "examples",
         "feature" ;
     prof:hasResource [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
-            dct:format "application/json" ;
-            prof:hasArtifact <https://canocnig.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise6/schema.json> ;
-            prof:hasRole role:schema ],
-        [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
             dct:format "application/yaml" ;
             prof:hasArtifact <https://canocnig.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise6/schema.yaml> ;
+            prof:hasRole role:schema ],
+        [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
+            dct:format "application/json" ;
+            prof:hasArtifact <https://canocnig.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise6/schema.json> ;
             prof:hasRole role:schema ] ;
     bblocks:scope <http://www.opengis.net/def/bblocks/scope/unstable> ;
     bblocks:status <http://www.opengis.net/def/status/under-development> ;
@@ -317,10 +322,10 @@
     rdfs:label "06 - Import/Extend (completed)" ;
     dct:abstract "Profiling a BBlock from another register"^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
     dct:created "2023-05-19T00:00:00+00:00"^^xsd:dateTime ;
-    dct:description [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://canocnig.github.io/bblocks-tutorial/build/generateddocs/markdown/bbr/tutorial/exercise6_completed/index.md> ],
-        [ dct:format "text/html" ;
+    dct:description [ dct:format "text/html" ;
             rdfs:isDefinedBy <https://canocnig.github.io/bblocks-tutorial/bblock/ogc.bbr.tutorial.exercise6_completed> ],
+        [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy <https://canocnig.github.io/bblocks-tutorial/build/generateddocs/markdown/bbr/tutorial/exercise6_completed/index.md> ],
         [ dct:format "application/json" ;
             rdfs:isDefinedBy <https://canocnig.github.io/bblocks-tutorial/build/generateddocs/json-full/bbr/tutorial/exercise6_completed/index.json> ] ;
     dct:hasVersion "1.0" ;
@@ -331,18 +336,13 @@
     dcat:keyword "building-blocks-tutorial",
         "examples",
         "feature" ;
-    prof:hasResource [ dct:conformsTo shacl: ;
-            dct:format "text/turtle" ;
-            rdfs:seeAlso <bblocks://ogc.geo.features.feature> ;
-            prof:hasArtifact <https://opengeospatial.github.io/bblocks/registereditems/geo/features/feature/shapes.shacl> ;
-            prof:hasRole role:validation ],
+    prof:hasResource [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
+            dct:format "application/json" ;
+            prof:hasArtifact <https://canocnig.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise6_completed/schema.json> ;
+            prof:hasRole role:schema ],
         [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
             dct:format "application/yaml" ;
             prof:hasArtifact <https://canocnig.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise6_completed/schema.yaml> ;
-            prof:hasRole role:schema ],
-        [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
-            dct:format "application/json" ;
-            prof:hasArtifact <https://canocnig.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise6_completed/schema.json> ;
             prof:hasRole role:schema ],
         [ dct:conformsTo shacl: ;
             dct:format "text/turtle" ;
@@ -361,6 +361,11 @@
             prof:hasArtifact <https://ogcincubator.github.io/topo-feature/_sources/features/topo-feature-collection/tests/topo-refs-exist.shacl>,
                 <https://ogcincubator.github.io/topo-feature/_sources/features/topo-feature/tests/geometry-coordinates.shacl> ;
             prof:hasRole role:validation ],
+        [ dct:conformsTo shacl: ;
+            dct:format "text/turtle" ;
+            rdfs:seeAlso <bblocks://ogc.geo.features.feature> ;
+            prof:hasArtifact <https://opengeospatial.github.io/bblocks/registereditems/geo/features/feature/shapes.shacl> ;
+            prof:hasRole role:validation ],
         [ dct:conformsTo <https://www.w3.org/TR/json-ld11/> ;
             dct:format "application/ld+json" ;
             prof:hasArtifact <https://canocnig.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise6_completed/context.jsonld> ;
@@ -377,10 +382,10 @@
     rdfs:label "07 - Transforms" ;
     dct:abstract "schema and graph transforms"^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
     dct:created "2024-10-03T11:31:00+02:00"^^xsd:dateTime ;
-    dct:description [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://canocnig.github.io/bblocks-tutorial/build/generateddocs/markdown/bbr/tutorial/exercise7/index.md> ],
-        [ dct:format "text/html" ;
+    dct:description [ dct:format "text/html" ;
             rdfs:isDefinedBy <https://canocnig.github.io/bblocks-tutorial/bblock/ogc.bbr.tutorial.exercise7> ],
+        [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy <https://canocnig.github.io/bblocks-tutorial/build/generateddocs/markdown/bbr/tutorial/exercise7/index.md> ],
         [ dct:format "application/json" ;
             rdfs:isDefinedBy <https://canocnig.github.io/bblocks-tutorial/build/generateddocs/json-full/bbr/tutorial/exercise7/index.json> ] ;
     dct:hasVersion "0.1" ;
@@ -388,17 +393,17 @@
     skos:inScheme <https://canocnig.github.io/bblocks-tutorial/> ;
     skos:prefLabel "07 - Transforms" ;
     skos:topConceptOf <https://canocnig.github.io/bblocks-tutorial/> ;
-    prof:hasResource [ dct:conformsTo <https://www.w3.org/TR/json-ld11/> ;
+    prof:hasResource [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
+            dct:format "application/yaml" ;
+            prof:hasArtifact <https://canocnig.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise7/schema.yaml> ;
+            prof:hasRole role:schema ],
+        [ dct:conformsTo <https://www.w3.org/TR/json-ld11/> ;
             dct:format "application/ld+json" ;
             prof:hasArtifact <https://canocnig.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise7/context.jsonld> ;
             prof:hasRole role:mapping ],
         [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
             dct:format "application/json" ;
             prof:hasArtifact <https://canocnig.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise7/schema.json> ;
-            prof:hasRole role:schema ],
-        [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
-            dct:format "application/yaml" ;
-            prof:hasArtifact <https://canocnig.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise7/schema.yaml> ;
             prof:hasRole role:schema ] ;
     bblocks:hasSourceJsonLdContext <https://canocnig.github.io/bblocks-tutorial/_sources/exercise7/context.jsonld> ;
     bblocks:status <http://www.opengis.net/def/status/under-development> ;
@@ -413,27 +418,27 @@
     dct:created "2024-10-03T11:31:00+02:00"^^xsd:dateTime ;
     dct:description [ dct:format "text/html" ;
             rdfs:isDefinedBy <https://canocnig.github.io/bblocks-tutorial/bblock/ogc.bbr.tutorial.exercise7_completed> ],
-        [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://canocnig.github.io/bblocks-tutorial/build/generateddocs/markdown/bbr/tutorial/exercise7_completed/index.md> ],
         [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://canocnig.github.io/bblocks-tutorial/build/generateddocs/json-full/bbr/tutorial/exercise7_completed/index.json> ] ;
+            rdfs:isDefinedBy <https://canocnig.github.io/bblocks-tutorial/build/generateddocs/json-full/bbr/tutorial/exercise7_completed/index.json> ],
+        [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy <https://canocnig.github.io/bblocks-tutorial/build/generateddocs/markdown/bbr/tutorial/exercise7_completed/index.md> ] ;
     dct:hasVersion "0.1" ;
     dct:modified "2026-07-03"^^xsd:date ;
     skos:inScheme <https://canocnig.github.io/bblocks-tutorial/> ;
     skos:prefLabel "07 - Transforms (completed)" ;
     skos:topConceptOf <https://canocnig.github.io/bblocks-tutorial/> ;
-    prof:hasResource [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
-            dct:format "application/yaml" ;
-            prof:hasArtifact <https://canocnig.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise7_completed/schema.yaml> ;
-            prof:hasRole role:schema ],
+    prof:hasResource [ dct:conformsTo <https://www.w3.org/TR/json-ld11/> ;
+            dct:format "application/ld+json" ;
+            prof:hasArtifact <https://canocnig.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise7_completed/context.jsonld> ;
+            prof:hasRole role:mapping ],
         [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
             dct:format "application/json" ;
             prof:hasArtifact <https://canocnig.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise7_completed/schema.json> ;
             prof:hasRole role:schema ],
-        [ dct:conformsTo <https://www.w3.org/TR/json-ld11/> ;
-            dct:format "application/ld+json" ;
-            prof:hasArtifact <https://canocnig.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise7_completed/context.jsonld> ;
-            prof:hasRole role:mapping ] ;
+        [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
+            dct:format "application/yaml" ;
+            prof:hasArtifact <https://canocnig.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise7_completed/schema.yaml> ;
+            prof:hasRole role:schema ] ;
     bblocks:hasSourceJsonLdContext <https://canocnig.github.io/bblocks-tutorial/_sources/exercise7_completed/context.jsonld> ;
     bblocks:status <http://www.opengis.net/def/status/under-development> ;
     bblocks:validationPassed true .
@@ -445,12 +450,12 @@
     rdfs:label "08 - Advanced Transform Example" ;
     dct:abstract "This example highlights an advanced transform from CityJSON to TopoFeature, showing a range of features interacting to support this complex task."^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
     dct:created "2024-10-18T08:31:00+00:00"^^xsd:dateTime ;
-    dct:description [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://canocnig.github.io/bblocks-tutorial/build/generateddocs/json-full/bbr/tutorial/exercise8/index.json> ],
+    dct:description [ dct:format "text/html" ;
+            rdfs:isDefinedBy <https://canocnig.github.io/bblocks-tutorial/bblock/ogc.bbr.tutorial.exercise8> ],
         [ dct:format "text/markdown" ;
             rdfs:isDefinedBy <https://canocnig.github.io/bblocks-tutorial/build/generateddocs/markdown/bbr/tutorial/exercise8/index.md> ],
-        [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://canocnig.github.io/bblocks-tutorial/bblock/ogc.bbr.tutorial.exercise8> ] ;
+        [ dct:format "application/json" ;
+            rdfs:isDefinedBy <https://canocnig.github.io/bblocks-tutorial/build/generateddocs/json-full/bbr/tutorial/exercise8/index.json> ] ;
     dct:hasVersion "0.1" ;
     dct:modified "2026-07-03"^^xsd:date ;
     skos:inScheme <https://canocnig.github.io/bblocks-tutorial/> ;
@@ -466,18 +471,18 @@
 
 <https://canocnig.github.io/bblocks-tutorial/build/bblocks.ttl> a prov:Entity ;
     dct:format "text/turtle" ;
-    prov:wasAttributedTo _:N6c1425c225004a3bad947997a57e46ba ;
+    prov:wasAttributedTo _:N8ec1fad8100a40efbccd37be33c9f94f ;
     prov:wasGeneratedBy [ a prov:Activity ;
-            prov:endedAtTime "2026-07-03T06:26:51.469473"^^xsd:dateTime ;
-            prov:startedAtTime "2026-07-03T06:26:51.285691"^^xsd:dateTime ;
+            prov:endedAtTime "2026-07-03T10:46:17.028379"^^xsd:dateTime ;
+            prov:startedAtTime "2026-07-03T10:46:16.822368"^^xsd:dateTime ;
             prov:used [ a prov:Entity ;
-                    dct:format "application/yaml" ;
-                    rdfs:seeAlso <file:///src/ogc/bblocks/register-context.yaml> ],
-                [ a prov:Entity ;
                     dct:format "application/json" ;
-                    dct:hasVersion "git:cee4d1c3b29b78893beb27ffea717d5c9e453058" ;
-                    rdfs:seeAlso <https://canocnig.github.io/bblocks-tutorial/build/register.json> ] ;
-            prov:wasAssociatedWith _:N6c1425c225004a3bad947997a57e46ba ] .
+                    dct:hasVersion "git:2626e545f42a8d9a27ffdb8672761372782e6aa5" ;
+                    rdfs:seeAlso <https://canocnig.github.io/bblocks-tutorial/build/register.json> ],
+                [ a prov:Entity ;
+                    dct:format "application/yaml" ;
+                    rdfs:seeAlso <file:///src/ogc/bblocks/register-context.yaml> ] ;
+            prov:wasAssociatedWith _:N8ec1fad8100a40efbccd37be33c9f94f ] .
 
 <bblocks://ogc.bbr.tutorial.exercise10> a skos:Concept,
         dcat:Dataset,
@@ -486,10 +491,10 @@
     rdfs:label "10 - Profiling an Ontology" ;
     dct:abstract "Often data models and schemas are re-used with specific constraints - i.e. as a profile. This example shows how using building blocks allows inheritance of rules from a base ontology and addition of such constraints using SHACL."^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
     dct:created "2023-04-05T00:00:00+00:00"^^xsd:dateTime ;
-    dct:description [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://canocnig.github.io/bblocks-tutorial/build/generateddocs/markdown/bbr/tutorial/exercise10/index.md> ],
-        [ dct:format "application/json" ;
+    dct:description [ dct:format "application/json" ;
             rdfs:isDefinedBy <https://canocnig.github.io/bblocks-tutorial/build/generateddocs/json-full/bbr/tutorial/exercise10/index.json> ],
+        [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy <https://canocnig.github.io/bblocks-tutorial/build/generateddocs/markdown/bbr/tutorial/exercise10/index.md> ],
         [ dct:format "text/html" ;
             rdfs:isDefinedBy <https://canocnig.github.io/bblocks-tutorial/bblock/ogc.bbr.tutorial.exercise10> ] ;
     dct:hasVersion "0.1" ;
@@ -524,10 +529,10 @@
     dct:created "2023-04-05T00:00:00+00:00"^^xsd:dateTime ;
     dct:description [ dct:format "text/markdown" ;
             rdfs:isDefinedBy <https://canocnig.github.io/bblocks-tutorial/build/generateddocs/markdown/bbr/tutorial/exercise3/index.md> ],
-        [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://canocnig.github.io/bblocks-tutorial/bblock/ogc.bbr.tutorial.exercise3> ],
         [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://canocnig.github.io/bblocks-tutorial/build/generateddocs/json-full/bbr/tutorial/exercise3/index.json> ] ;
+            rdfs:isDefinedBy <https://canocnig.github.io/bblocks-tutorial/build/generateddocs/json-full/bbr/tutorial/exercise3/index.json> ],
+        [ dct:format "text/html" ;
+            rdfs:isDefinedBy <https://canocnig.github.io/bblocks-tutorial/bblock/ogc.bbr.tutorial.exercise3> ] ;
     dct:hasVersion "0.1" ;
     dct:modified "2026-07-03"^^xsd:date ;
     dct:source <https://example.com/sources/1> ;
@@ -536,7 +541,11 @@
     skos:topConceptOf <https://canocnig.github.io/bblocks-tutorial/> ;
     dcat:keyword "building-blocks-tutorial",
         "templates" ;
-    prof:hasResource [ dct:conformsTo <https://www.w3.org/TR/json-ld11/> ;
+    prof:hasResource [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
+            dct:format "application/json" ;
+            prof:hasArtifact <https://canocnig.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise3/schema.json> ;
+            prof:hasRole role:schema ],
+        [ dct:conformsTo <https://www.w3.org/TR/json-ld11/> ;
             dct:format "application/ld+json" ;
             prof:hasArtifact <https://canocnig.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise3/context.jsonld> ;
             prof:hasRole role:mapping ],
@@ -548,10 +557,6 @@
         [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
             dct:format "application/yaml" ;
             prof:hasArtifact <https://canocnig.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise3/schema.yaml> ;
-            prof:hasRole role:schema ],
-        [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
-            dct:format "application/json" ;
-            prof:hasArtifact <https://canocnig.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise3/schema.json> ;
             prof:hasRole role:schema ] ;
     bblocks:hasSourceJsonLdContext <https://canocnig.github.io/bblocks-tutorial/_sources/exercise3/context.jsonld> ;
     bblocks:scope <http://www.opengis.net/def/bblocks/scope/unstable> ;
@@ -565,12 +570,12 @@
     rdfs:label "04 - Profile a BB (using rules)" ;
     dct:abstract "Profile another Building Block with additional constraint rules, include unit testing of these rules with pass and fail cases."^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
     dct:created "2023-04-05T00:00:00+00:00"^^xsd:dateTime ;
-    dct:description [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://canocnig.github.io/bblocks-tutorial/bblock/ogc.bbr.tutorial.exercise4> ],
-        [ dct:format "text/markdown" ;
+    dct:description [ dct:format "text/markdown" ;
             rdfs:isDefinedBy <https://canocnig.github.io/bblocks-tutorial/build/generateddocs/markdown/bbr/tutorial/exercise4/index.md> ],
         [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://canocnig.github.io/bblocks-tutorial/build/generateddocs/json-full/bbr/tutorial/exercise4/index.json> ] ;
+            rdfs:isDefinedBy <https://canocnig.github.io/bblocks-tutorial/build/generateddocs/json-full/bbr/tutorial/exercise4/index.json> ],
+        [ dct:format "text/html" ;
+            rdfs:isDefinedBy <https://canocnig.github.io/bblocks-tutorial/bblock/ogc.bbr.tutorial.exercise4> ] ;
     dct:hasVersion "0.1" ;
     dct:modified "2026-07-03"^^xsd:date ;
     dct:source <https://example.com/sources/1> ;
@@ -579,15 +584,15 @@
     skos:topConceptOf <https://canocnig.github.io/bblocks-tutorial/> ;
     dcat:keyword "building-blocks-tutorial",
         "templates" ;
-    prof:hasResource [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
-            dct:format "application/json" ;
-            prof:hasArtifact <https://canocnig.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise4/schema.json> ;
-            prof:hasRole role:schema ],
-        [ dct:conformsTo shacl: ;
+    prof:hasResource [ dct:conformsTo shacl: ;
             dct:format "text/turtle" ;
             rdfs:seeAlso <bblocks://ogc.bbr.tutorial.exercise4> ;
             prof:hasArtifact <https://canocnig.github.io/bblocks-tutorial/_sources/exercise4/rules.shacl> ;
             prof:hasRole role:validation ],
+        [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
+            dct:format "application/json" ;
+            prof:hasArtifact <https://canocnig.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise4/schema.json> ;
+            prof:hasRole role:schema ],
         [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
             dct:format "application/yaml" ;
             prof:hasArtifact <https://canocnig.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise4/schema.yaml> ;
@@ -603,12 +608,12 @@
     rdfs:label "09 - RDF BB" ;
     dct:abstract "A building block defining a building block for a data model described in ontology standards OWL and SHACL.  Such a building block allows logical constraints to be inherited by multiple implementation schemas using semantic annotations (such as JSON-LD)"^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
     dct:created "2023-04-05T00:00:00+00:00"^^xsd:dateTime ;
-    dct:description [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://canocnig.github.io/bblocks-tutorial/build/generateddocs/markdown/bbr/tutorial/exercise9/index.md> ],
-        [ dct:format "application/json" ;
+    dct:description [ dct:format "application/json" ;
             rdfs:isDefinedBy <https://canocnig.github.io/bblocks-tutorial/build/generateddocs/json-full/bbr/tutorial/exercise9/index.json> ],
         [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://canocnig.github.io/bblocks-tutorial/bblock/ogc.bbr.tutorial.exercise9> ] ;
+            rdfs:isDefinedBy <https://canocnig.github.io/bblocks-tutorial/bblock/ogc.bbr.tutorial.exercise9> ],
+        [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy <https://canocnig.github.io/bblocks-tutorial/build/generateddocs/markdown/bbr/tutorial/exercise9/index.md> ] ;
     dct:hasVersion "0.1" ;
     dct:modified "2026-07-03"^^xsd:date ;
     dct:source <https://example.com/sources/1> ;
@@ -617,15 +622,15 @@
     skos:topConceptOf <https://canocnig.github.io/bblocks-tutorial/> ;
     dcat:keyword "building-blocks-tutorial",
         "templates" ;
-    prof:hasResource [ dct:conformsTo shacl: ;
+    prof:hasResource [ dct:conformsTo owl:Ontology ;
+            dct:format "text/turtle" ;
+            prof:hasArtifact <https://canocnig.github.io/ontology.ttl> ;
+            prof:hasRole role:specification ],
+        [ dct:conformsTo shacl: ;
             dct:format "text/turtle" ;
             rdfs:seeAlso <bblocks://ogc.bbr.tutorial.exercise9> ;
             prof:hasArtifact <https://canocnig.github.io/bblocks-tutorial/_sources/exercise9/rules.shacl> ;
-            prof:hasRole role:validation ],
-        [ dct:conformsTo owl:Ontology ;
-            dct:format "text/turtle" ;
-            prof:hasArtifact <https://canocnig.github.io/ontology.ttl> ;
-            prof:hasRole role:specification ] ;
+            prof:hasRole role:validation ] ;
     bblocks:scope <http://www.opengis.net/def/bblocks/scope/unstable> ;
     bblocks:status <http://www.opengis.net/def/status/under-development> ;
     bblocks:validationPassed true .
@@ -639,12 +644,12 @@
     rdfs:label "04 - Profiling (completed)" ;
     dct:abstract "Profile another Building Block with additional constraint rules, include unit testing of these rules with pass and fail cases."^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
     dct:created "2023-04-05T00:00:00+00:00"^^xsd:dateTime ;
-    dct:description [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://canocnig.github.io/bblocks-tutorial/bblock/ogc.bbr.tutorial.exercise4_completed> ],
-        [ dct:format "application/json" ;
+    dct:description [ dct:format "application/json" ;
             rdfs:isDefinedBy <https://canocnig.github.io/bblocks-tutorial/build/generateddocs/json-full/bbr/tutorial/exercise4_completed/index.json> ],
         [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://canocnig.github.io/bblocks-tutorial/build/generateddocs/markdown/bbr/tutorial/exercise4_completed/index.md> ] ;
+            rdfs:isDefinedBy <https://canocnig.github.io/bblocks-tutorial/build/generateddocs/markdown/bbr/tutorial/exercise4_completed/index.md> ],
+        [ dct:format "text/html" ;
+            rdfs:isDefinedBy <https://canocnig.github.io/bblocks-tutorial/bblock/ogc.bbr.tutorial.exercise4_completed> ] ;
     dct:hasVersion "0.1" ;
     dct:modified "2026-07-03"^^xsd:date ;
     dct:source <https://example.com/sources/1> ;
@@ -657,6 +662,14 @@
             dct:format "application/json" ;
             prof:hasArtifact <https://canocnig.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise4_completed/schema.json> ;
             prof:hasRole role:schema ],
+        [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
+            dct:format "application/yaml" ;
+            prof:hasArtifact <https://canocnig.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise4_completed/schema.yaml> ;
+            prof:hasRole role:schema ],
+        [ dct:conformsTo <https://www.w3.org/TR/json-ld11/> ;
+            dct:format "application/ld+json" ;
+            prof:hasArtifact <https://canocnig.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise4_completed/context.jsonld> ;
+            prof:hasRole role:mapping ],
         [ dct:conformsTo shacl: ;
             dct:format "text/turtle" ;
             rdfs:seeAlso <bblocks://ogc.bbr.tutorial.exercise4_completed> ;
@@ -666,15 +679,7 @@
             dct:format "text/turtle" ;
             rdfs:seeAlso <bblocks://ogc.bbr.tutorial.exercise3_completed> ;
             prof:hasArtifact <https://canocnig.github.io/bblocks-tutorial/_sources/exercise3_completed/rules.shacl> ;
-            prof:hasRole role:validation ],
-        [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
-            dct:format "application/yaml" ;
-            prof:hasArtifact <https://canocnig.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise4_completed/schema.yaml> ;
-            prof:hasRole role:schema ],
-        [ dct:conformsTo <https://www.w3.org/TR/json-ld11/> ;
-            dct:format "application/ld+json" ;
-            prof:hasArtifact <https://canocnig.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise4_completed/context.jsonld> ;
-            prof:hasRole role:mapping ] ;
+            prof:hasRole role:validation ] ;
     bblocks:dependsOn <bblocks://ogc.bbr.tutorial.exercise3_completed> ;
     bblocks:scope <http://www.opengis.net/def/bblocks/scope/unstable> ;
     bblocks:status <http://www.opengis.net/def/status/under-development> ;
@@ -687,10 +692,10 @@
     rdfs:label "09 - RDF BB (completed) " ;
     dct:abstract "A building block defining a building block for a data model described in ontology standards OWL and SHACL.  Such a building block allows logical constraints to be inherited by multiple implementation schemas using semantic annotations (such as JSON-LD)"^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
     dct:created "2023-04-05T00:00:00+00:00"^^xsd:dateTime ;
-    dct:description [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://canocnig.github.io/bblocks-tutorial/bblock/ogc.bbr.tutorial.exercise9_completed> ],
-        [ dct:format "text/markdown" ;
+    dct:description [ dct:format "text/markdown" ;
             rdfs:isDefinedBy <https://canocnig.github.io/bblocks-tutorial/build/generateddocs/markdown/bbr/tutorial/exercise9_completed/index.md> ],
+        [ dct:format "text/html" ;
+            rdfs:isDefinedBy <https://canocnig.github.io/bblocks-tutorial/bblock/ogc.bbr.tutorial.exercise9_completed> ],
         [ dct:format "application/json" ;
             rdfs:isDefinedBy <https://canocnig.github.io/bblocks-tutorial/build/generateddocs/json-full/bbr/tutorial/exercise9_completed/index.json> ] ;
     dct:hasVersion "0.1" ;
@@ -701,15 +706,15 @@
     skos:topConceptOf <https://canocnig.github.io/bblocks-tutorial/> ;
     dcat:keyword "building-blocks-tutorial",
         "templates" ;
-    prof:hasResource [ dct:conformsTo shacl: ;
+    prof:hasResource [ dct:conformsTo owl:Ontology ;
+            dct:format "text/turtle" ;
+            prof:hasArtifact <https://canocnig.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise9_completed/ontology.ttl> ;
+            prof:hasRole role:specification ],
+        [ dct:conformsTo shacl: ;
             dct:format "text/turtle" ;
             rdfs:seeAlso <bblocks://ogc.bbr.tutorial.exercise9_completed> ;
             prof:hasArtifact <https://canocnig.github.io/bblocks-tutorial/_sources/exercise9_completed/rules.shacl> ;
-            prof:hasRole role:validation ],
-        [ dct:conformsTo owl:Ontology ;
-            dct:format "text/turtle" ;
-            prof:hasArtifact <https://canocnig.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise9_completed/ontology.ttl> ;
-            prof:hasRole role:specification ] ;
+            prof:hasRole role:validation ] ;
     bblocks:scope <http://www.opengis.net/def/bblocks/scope/unstable> ;
     bblocks:status <http://www.opengis.net/def/status/under-development> ;
     bblocks:validationPassed true .
@@ -721,12 +726,12 @@
     rdfs:label "03 - Rules (completed)" ;
     dct:abstract "Add logical rules using SHACL to exploit semantic annotations"^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
     dct:created "2023-04-05T00:00:00+00:00"^^xsd:dateTime ;
-    dct:description [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://canocnig.github.io/bblocks-tutorial/bblock/ogc.bbr.tutorial.exercise3_completed> ],
-        [ dct:format "application/json" ;
+    dct:description [ dct:format "application/json" ;
             rdfs:isDefinedBy <https://canocnig.github.io/bblocks-tutorial/build/generateddocs/json-full/bbr/tutorial/exercise3_completed/index.json> ],
         [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://canocnig.github.io/bblocks-tutorial/build/generateddocs/markdown/bbr/tutorial/exercise3_completed/index.md> ] ;
+            rdfs:isDefinedBy <https://canocnig.github.io/bblocks-tutorial/build/generateddocs/markdown/bbr/tutorial/exercise3_completed/index.md> ],
+        [ dct:format "text/html" ;
+            rdfs:isDefinedBy <https://canocnig.github.io/bblocks-tutorial/bblock/ogc.bbr.tutorial.exercise3_completed> ] ;
     dct:hasVersion "0.1" ;
     dct:modified "2026-07-03"^^xsd:date ;
     dct:source <https://example.com/sources/1> ;
@@ -739,6 +744,10 @@
             dct:format "application/yaml" ;
             prof:hasArtifact <https://canocnig.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise3_completed/schema.yaml> ;
             prof:hasRole role:schema ],
+        [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
+            dct:format "application/json" ;
+            prof:hasArtifact <https://canocnig.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise3_completed/schema.json> ;
+            prof:hasRole role:schema ],
         [ dct:conformsTo shacl: ;
             dct:format "text/turtle" ;
             rdfs:seeAlso <bblocks://ogc.bbr.tutorial.exercise3_completed> ;
@@ -747,11 +756,7 @@
         [ dct:conformsTo <https://www.w3.org/TR/json-ld11/> ;
             dct:format "application/ld+json" ;
             prof:hasArtifact <https://canocnig.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise3_completed/context.jsonld> ;
-            prof:hasRole role:mapping ],
-        [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
-            dct:format "application/json" ;
-            prof:hasArtifact <https://canocnig.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise3_completed/schema.json> ;
-            prof:hasRole role:schema ] ;
+            prof:hasRole role:mapping ] ;
     bblocks:hasSourceJsonLdContext <https://canocnig.github.io/bblocks-tutorial/_sources/exercise3_completed/context.jsonld> ;
     bblocks:scope <http://www.opengis.net/def/bblocks/scope/unstable> ;
     bblocks:status <http://www.opengis.net/def/status/under-development> ;
@@ -767,7 +772,7 @@
 """^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
     dct:description """Follow the instructions in the "About section" of each building block, starting with the [Orientation](bblock/ogc.bbr.tutorial.exercise0) exercise.
 """^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
-    dct:modified "2026-07-03T06:26:42.190658"^^xsd:dateTime ;
+    dct:modified "2026-07-03T10:46:05.864539"^^xsd:dateTime ;
     owl:imports <https://ogcincubator.github.io/topo-feature/build/register.json>,
         <https://opengeospatial.github.io/bblocks/register.json> ;
     skos:hasTopConcept <bblocks://ogc.bbr.tutorial.exercise0>,
@@ -790,22 +795,22 @@
         <bblocks://ogc.bbr.tutorial.exercise9>,
         <bblocks://ogc.bbr.tutorial.exercise9_completed> ;
     skos:prefLabel "Building Blocks - OGC Building Blocks tutorial examples repository" ;
-    prof:hasResource [ rdfs:label "This Building Blocks Register in JSON format" ;
-            dct:type "application/json" ;
-            ns1:relation <http://www.iana.org/assignments/relation/self> ;
-            ns2:hasTarget <https://canocnig.github.io/bblocks-tutorial/build/register.json> ],
-        [ rdfs:label "This Building Blocks Register in RDF Turtle format" ;
+    prof:hasResource [ rdfs:label "This Building Blocks Register in RDF Turtle format" ;
             dct:type "text/turtle" ;
-            ns1:relation <http://www.iana.org/assignments/relation/self> ;
-            ns2:hasTarget <https://canocnig.github.io/bblocks-tutorial/build/bblocks.ttl> ],
+            ns2:relation <http://www.iana.org/assignments/relation/self> ;
+            ns1:hasTarget <https://canocnig.github.io/bblocks-tutorial/build/bblocks.ttl> ],
+        [ rdfs:label "This Building Blocks Register in JSON format" ;
+            dct:type "application/json" ;
+            ns2:relation <http://www.iana.org/assignments/relation/self> ;
+            ns1:hasTarget <https://canocnig.github.io/bblocks-tutorial/build/register.json> ],
         [ rdfs:label "This Building Blocks Register in JSON-LD format" ;
             dct:type "application/ld+json" ;
-            ns1:relation <http://www.iana.org/assignments/relation/self> ;
-            ns2:hasTarget <https://canocnig.github.io/bblocks-tutorial/build/bblocks.jsonld> ] ;
+            ns2:relation <http://www.iana.org/assignments/relation/self> ;
+            ns1:hasTarget <https://canocnig.github.io/bblocks-tutorial/build/bblocks.jsonld> ] ;
     foaf:homepage <https://canocnig.github.io/bblocks-tutorial/> ;
     bblocks:hasValidationReport <https://canocnig.github.io/bblocks-tutorial/build/tests/report.html> .
 
-_:N6c1425c225004a3bad947997a57e46ba a prov:Agent,
+_:N8ec1fad8100a40efbccd37be33c9f94f a prov:Agent,
         schema:SoftwareApplication ;
     rdfs:label "OGC-NA tools" ;
     dct:hasVersion "0.5.31" ;

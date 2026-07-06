@@ -5,17 +5,23 @@
   "properties": {
     "a": {
       "type": "string",
-      "format": "uri"
+      "format": "uri",
+      "x-jsonld-id": "@type"
     },
     "b": {
-      "type": "number"
+      "type": "number",
+      "x-jsonld-id": "https://example.org/my-bb-model/b"
     },
     "c": {
-      "type": "number"
+      "type": "number",
+      "x-jsonld-id": "https://example.org/my-bb-model/c"
     }
   },
   "required": [
     "a",
     "b"
-  ]
+  ],
+  "x-jsonld-prefixes": {
+    "mynamespace": "http://example.com/mythings/"
+  }
 }

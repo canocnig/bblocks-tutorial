@@ -1,7 +1,10 @@
 Validation report for ogc.bbr.tutorial.exercise2 - 02 - JSON-LD
-Generated 2026-07-03T06:26:47.727002+00:00
+Generated 2026-07-03T10:46:13.159928+00:00
 === Files ===
 Using ../exercise1/example.json from examples
+JSON-LD context is present - uplifting
+Output JSON-LD example_1_1.jsonld created
+Output Turtle example_1_1.ttl created
 === End Files ===
 
 === JSON Schema ===

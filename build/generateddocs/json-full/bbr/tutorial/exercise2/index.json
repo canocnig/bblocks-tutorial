@@ -26,11 +26,13 @@
     "templates"
   ],
   "shaclShapes": {},
+  "ldContext": "https://canocnig.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise2/context.jsonld",
   "schema": {
     "application/yaml": "https://canocnig.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise2/schema.yaml",
     "application/json": "https://canocnig.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise2/schema.json"
   },
   "sourceSchema": "https://canocnig.github.io/bblocks-tutorial/_sources/exercise2/schema.yaml",
+  "sourceLdContext": "https://canocnig.github.io/bblocks-tutorial/_sources/exercise2/context.jsonld",
   "resolvedSchemaProperties": "https://canocnig.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise2/resolvedProperties.json",
   "sourceFiles": "https://canocnig.github.io/bblocks-tutorial/_sources/exercise2/",
   "validationPassed": true,
@@ -47,11 +49,23 @@
           "url": "https://canocnig.github.io/bblocks-tutorial/build/tests/bbr/tutorial/exercise2/example_1_1.json",
           "sizeBytes": 54,
           "code": "{\n  \"a\": \"mynamespace:aThing\",\n  \"b\": 23,\n  \"c\": 1\n}\n\n"
+        },
+        {
+          "language": "jsonld",
+          "url": "https://canocnig.github.io/bblocks-tutorial/build/tests/bbr/tutorial/exercise2/example_1_1.jsonld",
+          "sizeBytes": 167,
+          "code": "{\n  \"@context\": \"https://canocnig.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise2/context.jsonld\",\n  \"a\": \"mynamespace:aThing\",\n  \"b\": 23,\n  \"c\": 1\n}"
+        },
+        {
+          "language": "ttl",
+          "url": "https://canocnig.github.io/bblocks-tutorial/build/tests/bbr/tutorial/exercise2/example_1_1.ttl",
+          "sizeBytes": 212,
+          "code": "@prefix mynamespace: <http://example.com/mythings/> .\n@prefix ns1: <https://example.org/my-bb-model/> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\n[] a mynamespace:aThing ;\n    ns1:b 23 ;\n    ns1:c 1 .\n\n"
         }
       ]
     }
   ],
-  "annotatedSchema": "$schema: https://json-schema.org/draft/2020-12/schema\ndescription: My example schema\ntype: object\nproperties:\n  a:\n    type: string\n    format: uri\n  b:\n    type: number\n  c:\n    type: number\nrequired:\n- a\n- b\n",
+  "annotatedSchema": "$schema: https://json-schema.org/draft/2020-12/schema\ndescription: My example schema\ntype: object\nproperties:\n  a:\n    type: string\n    format: uri\n    x-jsonld-id: '@type'\n  b:\n    type: number\n    x-jsonld-id: https://example.org/my-bb-model/b\n  c:\n    type: number\n    x-jsonld-id: https://example.org/my-bb-model/c\nrequired:\n- a\n- b\nx-jsonld-prefixes:\n  mynamespace: http://example.com/mythings/\n",
   "gitRepository": "https://github.com/canocnig/bblocks-tutorial",
   "gitPath": "_sources/exercise2"
 }
